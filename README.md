@@ -21,8 +21,9 @@ The proceeding numbers are randomly generated along with the corresponding PIN
 cardmember. The pin is a randomly generated card number from 0000 to 9999.
 
 ## SQLite
-As stated beforehand this program uses the sqlite3 for its database configuration. 
-Below is the structure of the database:
+As stated beforehand this program uses the sqlite3 for its database configuration.The database 
+is created once the program has started. Query requests will be reflected from the user input. 
+Below is the structure of table ``card `` from the database:
   - id number
   - card number
   - pin
