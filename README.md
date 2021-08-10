@@ -7,6 +7,7 @@ Throughout this article, I will demonstrate its properties and how it's used.
 ## Legend
 * [Luhn algorithm](#Luhn-algorithm)
 * [SQLite](#SQLite)
+* [Installation](#Installation)
 * [Usage](#Usage)
 * [Layout](#Layout)
   * [Main Menu](#Main-Menu)
@@ -32,7 +33,7 @@ Below is the structure of table ``card`` from the database:
   - pin
   - balance
 
-## Getting Started
+## Installation
 Download the application from [bankingapp](bankingsystem.py) and run it in the terminal. 
 ```
 python bankingsystem.py
