@@ -37,12 +37,13 @@ python bankingsystem.py
 ````
 ## Layout
 At the start of the program, you are given presented to the main menu
+  ### Main Menu
 ```
 1. Create an account
 2. Log into account
 0. Exit
 ```
-  - Option 1 ``1. Create an account`` would produce a randomly generated 16 digits card number beginning 4000000xxxxxxxxx and is its associated four-digit pin. There is no limit as to how many cards you wish to generate. 
+  - ``1. Create an account`` would produce a randomly generated 16 digits card number beginning 4000000xxxxxxxxx and is its associated four-digit pin. There is no limit as to how many cards you wish to generate. 
   ```
   Your card has been created
   Your card number:
@@ -50,7 +51,7 @@ At the start of the program, you are given presented to the main menu
   Your card PIN:
   6234
   ```
- - Option 2 ``Log into account``  would produce user sign-in of their newly created card. 
+ -``2. Log into account``  would produce user sign-in of their newly created card. 
  ```
  Enter your card number:
  4000002846503173
@@ -58,4 +59,4 @@ At the start of the program, you are given presented to the main menu
  7480
  You have successfully logged in!
  ```
-
+ - 
