@@ -21,7 +21,7 @@ The proceeding numbers are randomly generated along with the corresponding PIN
 cardmember. The pin is a randomly generated card number from 0000 to 9999.
 
 ## SQLite
-As stated beforehand this program uses the sqlite3 for its database configuration.The database 
+As stated beforehand this program uses sqlite3 for its database configuration.The database 
 is created once the program has started. Query requests will be reflected from the user input. All 
 data will be stored in this manner and will be used to recall information to the CLI.
 Below is the structure of table ``card`` from the database:
@@ -78,6 +78,7 @@ Balance: 0
 Enter deposited amount:
 1000
 ```
+
 - ``3. Do transfer`` transfers funds to another credit card from the current working card on file. The card entered must be of a valid length and pass the Luhn algorithm test.
  ```
  Enter card number:
@@ -87,6 +88,11 @@ Enter deposited amount:
 
 Success!
  ```
+ -  This feature supports multiple errors handling conditions such as:
+ - The amount deposited can not come from the same credit card the user is currently using.
+ - The entered card number must be within the database and pass the Luhn algorithms 
+ - Transfer requestion can not exceed the user current balance
+
 - ``4. Close account`` The current card will be removed from the database and the session will end. This will return to the [main menu](Main-Menu). 
 ```
 The Account has been closed!
