@@ -10,6 +10,10 @@ Throughout this article, I will demonstrate its properties and how it's used.
 * [Luhn algorithm](#Luhn-algorithm)
 * [SQLite](#SQLite)
 * [Getting Started](#Getting-Started)
+* [Layout](#Layout)
+  * [Main-Menu](#Main-Menu)
+  * [Account Menu](#Account-Menu)
+  
 
 ## Luhn algorithm
 - The [Luhn algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm) is a widely known 
@@ -31,7 +35,7 @@ Below is the structure of table ``card`` from the database:
   - balance
 
 ## Getting Started
-Download the application from [bankingapp](bankingsystem.py) and run the CLI. 
+Download the application from [bankingapp](bankingsystem.py) and run it in the terminal. 
 ```
 python bankingsystem.py
 ````
@@ -100,9 +104,9 @@ Success!
 – The entered card number must be within the database and pass the Luhn algorithm test <br />
 – Transfer requestion can not exceed the user current balance
 
-- **4. Close account:** The current card will be removed from the database and the session will end. This will return to the [main menu](Main-Menu). 
+- **4. Close account:** The current card will be removed from the database and the session will end. This will return to the [main menu](#Main-Menu). 
 ```
 The Account has been closed!
 ```
-- **5. Log out** The card will be logged out from the account and return to the [main menu](Main-Menu)
+- **5. Log out** The card will be logged out from the account and return to the [main menu](#Main-Menu)
 - **0. Exit** This will end the program
