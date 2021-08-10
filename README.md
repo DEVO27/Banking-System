@@ -51,7 +51,7 @@ At the start of the program, you are given presented to the main menu
   Your card PIN:
   6234
   ```
- -``2. Log into account``  would produce user sign-in of their newly created card. 
+ - ``2. Log into account``  would produce user sign-in of their newly created card. 
  ```
  Enter your card number:
  4000002846503173
@@ -59,4 +59,38 @@ At the start of the program, you are given presented to the main menu
  7480
  You have successfully logged in!
  ```
- - 
+ - If incorrect input ``Wrong card number or PIN``
+ ### Account Menu
+   The account represents operations you can perform on the card signed in.
+ ```
+1. Balance
+2. Add funds
+3. Do transfer
+4. Close account
+5. Log out
+0. Exit
+```
+- ``1. Balance`` will display the current balance in the account. All balances are set to 0 by default.
+```
+Balance: 0
+```
+- ``2. Add funds`` deposit funds into the current working account.
+```
+Enter deposited amount:
+1000
+```
+- `` Do transfer`` transfers funds to another credit card from the current working card on file. The card entered must be of a valid length and pass the Luhn algorithm test.
+ ```
+ Enter card number:
+ 4000003184705263
+ Enter how much money you want to transfer:
+ 75
+
+Success!
+ ```
+- ``4. Close account`` The current card will be removed from the database and the session will end. This will return to the [main menu](Main-Menu). 
+```
+The Account has been closed!
+```
+- ``5. Log out`` The card will be logged out from the account and return to the [main menu](Main-Menu)
+- ``0. Exit`` This will end the program
