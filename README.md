@@ -61,7 +61,6 @@ At the start of the program, you are given presented to the main menu
  ```
  - If incorrect input ``Wrong card number or PIN``
  ### Account Menu
-   The account represents operations you can perform on the card signed in.
  ```
 1. Balance
 2. Add funds
