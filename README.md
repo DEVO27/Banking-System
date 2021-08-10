@@ -7,7 +7,7 @@ Throughout this article, I will demonstrate its properties and how it's used.
 ## Legend
 * [Luhn algorithm](#Luhn-algorithm)
 * [SQLite](#SQLite)
-* [Getting Started](#Getting-Started)
+* [Usage](#Usage)
 * [Layout](#Layout)
   * [Main Menu](#Main-Menu)
   * [Account Menu](#Account-Menu)
@@ -37,7 +37,7 @@ Download the application from [bankingapp](bankingsystem.py) and run it in the t
 ```
 python bankingsystem.py
 ````
-## Layout
+## Usage
 At the start of the program, you are presented to the main menu
   ### Main Menu
 ```
