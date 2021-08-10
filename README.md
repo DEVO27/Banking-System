@@ -28,7 +28,7 @@ Below is the structure of table ``card`` from the database:
   - card number
   - pin
   - balance
-All data will be stored in this manner and will be used to recall information to the CLI.
+  All data will be stored in this manner and will be used to recall information to the CLI.
 
 ## Getting Started
 Download the application from [bankingapp](bankingsystem.py) and run the CLI. 
