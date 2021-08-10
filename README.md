@@ -7,7 +7,7 @@ validating identification numbers on a credit card.
 Throughout this article, I will demonstrate its properties and how it's used. 
 
 ## Luhn algorithm
--The [Luhn algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm) is a widely used 
+- The [Luhn algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm) is a widely used 
 mathematical formula that will be used to validate the authenticity of identification 
 numbers of our generated credit card numbers. The first six digits in the program 
 known as the MII or (Major Industry Identifier) will always start with 400000. 
