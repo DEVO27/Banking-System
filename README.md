@@ -43,7 +43,7 @@ At the start of the program, you are given presented to the main menu
 2. Log into account
 0. Exit
 ```
-  - ``1. Create an account`` would produce a randomly generated 16 digits card number beginning 4000000xxxxxxxxx and is its associated four-digit pin. There is no limit as to how many cards you wish to generate. 
+  - **1. Create an account:** would produce a randomly generated 16 digits card number beginning 4000000xxxxxxxxx and is its associated four-digit pin. There is no limit as to how many cards you wish to generate. 
   ```
   Your card has been created
   Your card number:
@@ -51,7 +51,7 @@ At the start of the program, you are given presented to the main menu
   Your card PIN:
   6234
   ```
- - ``2. Log into account``  would produce user sign-in of their newly created card. 
+ - **2. Log into account:**  would produce user sign-in of their newly created card. 
  ```
  Enter your card number:
  4000002846503173
@@ -69,7 +69,7 @@ At the start of the program, you are given presented to the main menu
 5. Log out
 0. Exit
 ```
-- ``1. Balance`` will display the current balance in the account. All balances are set to 0 by default.
+- **1. Balance:** will display the current balance in the account. All balances are set to 0 by default.
 ```
 Balance: 0
 ```
@@ -79,7 +79,7 @@ Enter deposited amount:
 1000
 ```
 
-- ``3. Do transfer`` transfers funds to another credit card from the current working card on file. The card entered must be of a valid length and pass the Luhn algorithm test.
+- **3. Do transfer:** transfers funds to another credit card from the current working card on file. The card entered must be of a valid length and pass the Luhn algorithm test.
  ```
  Enter card number:
  4000003184705263
@@ -93,9 +93,9 @@ Success!
 – The entered card number must be within the database and pass the Luhn algorithm test <br />
 – Transfer requestion can not exceed the user current balance
 
-**4. Close account:** The current card will be removed from the database and the session will end. This will return to the [main menu](Main-Menu). 
+- **4. Close account:** The current card will be removed from the database and the session will end. This will return to the [main menu](Main-Menu). 
 ```
 The Account has been closed!
 ```
-- ``5. Log out`` The card will be logged out from the account and return to the [main menu](Main-Menu)
-- ``0. Exit`` This will end the program
+- **5. Log out** The card will be logged out from the account and return to the [main menu](Main-Menu)
+- **0. Exit** This will end the program
