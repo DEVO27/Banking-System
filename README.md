@@ -23,7 +23,7 @@ cardmember. The pin is a randomly generated card number from 0000 to 9999.
 ## SQLite
 As stated beforehand this program uses the sqlite3 for its database configuration.The database 
 is created once the program has started. Query requests will be reflected from the user input. 
-Below is the structure of table ``card `` from the database:
+Below is the structure of table ``card`` from the database:
   - id number
   - card number
   - pin
@@ -31,4 +31,9 @@ Below is the structure of table ``card `` from the database:
 All data will be stored in this manner and will be used to recall information to the CLI.
 
 ## Getting Started
-Download the application and run the CLI. 
+Download the application from [bankingapp](bankingsystem.py)and run the CLI. 
+```
+python bankingsystem.py
+````
+
+
