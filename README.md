@@ -40,7 +40,7 @@ Download the application from [bankingapp](bankingsystem.py) and run it in the t
 python bankingsystem.py
 ````
 ## Layout
-At the start of the program, you are given presented to the main menu
+At the start of the program, you are presented to the main menu
   ### Main Menu
 ```
 1. Create an account
