@@ -88,7 +88,7 @@ Enter deposited amount:
 
 Success!
  ```
- This feature supports multiple errors handling conditions such as:
+ <br />This feature supports multiple errors handling conditions such as:
 – The amount deposited can not come from the same credit card the user is currently using.
 – The entered card number must be within the database and pass the Luhn algorithms 
 – Transfer requestion can not exceed the user current balance
