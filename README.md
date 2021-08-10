@@ -78,6 +78,13 @@ Balance: 0
 Enter deposited amount:
 1000
 ```
+– Adding a new amount is based on **sign**. The action can be a withdrawl or deposit. 
+```
+Balance = 100
+Enter deposited amount:
+12
+Balance = 112
+```
 
 - **3. Do transfer:** transfers funds to another credit card from the current working card on file. The card entered must be of a valid length and pass the Luhn algorithm test.
  ```
