@@ -12,9 +12,10 @@ Throughout this article, I will demonstrate its properties and how it's used.
 * [Getting Started](#Getting-Started)
 
 ## Luhn algorithm
-- The [Luhn algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm) is a widely used 
-mathematical formula that will be used to validate the authenticity of identification 
-numbers of our generated credit card numbers. The first six digits in the program 
+- The [Luhn algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm) is a widely known 
+mathematical formula used to validate the authenticity of identification 
+numbers of our generated credit card numbers. This program implements this algorithm to 
+authenticate its generated card numbers. The first six digits in the program 
 known as the MII or (Major Industry Identifier) will always start with 400000. 
 The proceeding numbers are randomly generated along with the corresponding PIN 
 cardmember. The pin is a randomly generated card number from 0000 to 9999.
