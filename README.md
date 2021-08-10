@@ -79,7 +79,7 @@ Balance: 0
 Enter deposited amount:
 1000
 ```
-- `` Do transfer`` transfers funds to another credit card from the current working card on file. The card entered must be of a valid length and pass the Luhn algorithm test.
+- ``3. Do transfer`` transfers funds to another credit card from the current working card on file. The card entered must be of a valid length and pass the Luhn algorithm test.
  ```
  Enter card number:
  4000003184705263
