@@ -11,7 +11,7 @@ Throughout this article, I will demonstrate its properties and how it's used.
 * [SQLite](#SQLite)
 * [Getting Started](#Getting-Started)
 * [Layout](#Layout)
-  * [Main-Menu](#Main-Menu)
+  * [Main Menu](#Main-Menu)
   * [Account Menu](#Account-Menu)
   
 
