@@ -31,7 +31,7 @@ Below is the structure of table ``card`` from the database:
 All data will be stored in this manner and will be used to recall information to the CLI.
 
 ## Getting Started
-Download the application from [bankingapp](bankingsystem.py)and run the CLI. 
+Download the application from [bankingapp](bankingsystem.py) and run the CLI. 
 ```
 python bankingsystem.py
 ````
