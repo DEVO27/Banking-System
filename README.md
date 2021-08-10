@@ -88,9 +88,9 @@ Enter deposited amount:
 
 Success!
  ```
- <br>This feature supports multiple errors handling conditions such as:<br />
-– The amount deposited can not come from the same credit card the user is currently using.
-– The entered card number must be within the database and pass the Luhn algorithms 
+ This feature supports multiple errors handling conditions such as:<br />
+– The amount deposited can not come from the same credit card the user is currently using.<br />
+– The entered card number must be within the database and pass the Luhn algorithms <br />
 – Transfer requestion can not exceed the user current balance
 
 - ``4. Close account`` The current card will be removed from the database and the session will end. This will return to the [main menu](Main-Menu). 
