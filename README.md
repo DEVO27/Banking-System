@@ -6,7 +6,7 @@ for working with SQLite databases and the Luhn algorithm for
 validating identification numbers on a credit card. 
 Throughout this article, I will demonstrate its properties and how it's used. 
 
-Legend
+## Legend
 * [Luhn algorithm](#Luhn-algorithm)
 * [SQLite](#SQLite)
 * [Getting Started](#Getting-Started)
